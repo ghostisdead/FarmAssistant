@@ -1,0 +1,133 @@
+<div id='TW2A-container' class='win-content'>
+  
+  <header class="win-head">
+    <h2 class="ng-binding">TW2Assistant</h2>
+    <ul class="list-btn">
+      <li> <a href="#" class="size-34x34 btn-red icon-26x26-close" onclick="showInterface()"></a> </li>
+    </ul>
+  </header>
+  
+  <div id="TW2A-MainContainer" style="position: relative; height: 100%; width: 100%"> 
+    
+    <div class="box-paper tabs-icons"> 
+      <div> 
+        <div> 
+          <table class="tbl-border-light tbl-content">
+            <tr>
+                <td class="content">Seja Bem vindo ao TW2Assistant</td>
+            </tr>
+          </table>
+                    
+          <h5 class="twx-section"> Depósito de Recursos 
+                  <span class="min-max-btn">
+                    <a id="contentbtn-1" href="#" class="btn-orange icon-26x26-minus" onclick= "showContent('1')"></a>
+                  </span> 
+          </h5>  
+          
+          <table class="tbl-border-light tbl-content content-1">
+            <colgroup>
+              <col> 
+              <col>
+              <col>
+              <col width="34px">
+            </colgroup> 
+            <tr>
+                <td colspan="3"> <span class="ff-cell-fix"> Ativar assistente </span> </td> 
+                <td> 
+                  <label class="size-34x34 btn-orange icon-26x26-checkbox">
+                    <input id="TW2A-DR-CheckBox" type="checkbox" class="ng-pristine ng-untouched ng-valid" onclick="toggleRD()">
+                  </label>
+                </td>
+            </tr>
+               
+          </table>
+          
+          <h5 class="twx-section"> Assistente de Farm 
+                    <span class="min-max-btn">
+                      <a id="contentbtn-2" href="#" class="btn-orange icon-26x26-minus" onclick= "showContent('2')"></a>
+                    </span> 
+            </h5>          
+          <table class="tbl-border-light tbl-content content-2">
+            
+            <div id="TW2A-select-field-1" class="show visible" style="transform: translate3d(466px, 33px, 0px); width: 168.042px; z-index: 9000; position: absolute;"> 
+              <ul class="action-list select-handler action-list-bottom TW2A-List-1">
+                 <li class="action clearfix" onclick="select(1)"> 
+                    <span class="action-name overflow-ellipsis">
+                      <span >aldeia 1</span> 
+                    </span>
+                  </li> 
+               </ul>
+             </div> 
+
+            <div id="TW2A-select-field-2" class="show visible" style="transform: translate3d(466px, 71px, 0px); width: 168.042px; z-index: 9000; position: absolute;"> 
+              <ul class="action-list select-handler action-list-bottom TW2A-List-2">
+                 <li class="action clearfix" onclick="select(1)"> 
+                    <span class="action-name overflow-ellipsis">
+                      <span >unidade 1</span> 
+                    </span>
+                  </li> 
+               </ul>
+             </div> 
+            
+            <colgroup>
+              <col> 
+              <col>
+              <col>
+              <col width="100px">
+            </colgroup>
+            
+            <tr>
+                <td colspan="3"> <span class="ff-cell-fix"> Selecione um grupo alvo de aldeias </span> </td>
+                <td> 
+                  <div>
+                    <span class="select-wrapper box-border-dark" onclick="toggleSelect(1)">
+                      <a href="#" class="select-button btn-orange icon-26x26-arrow-down">
+                      </a>
+                      <a href="#" class="select-handler">
+                        <span id="selected">none selected</span>
+                      </a>                       
+                    </span>
+                  </div>
+                </td>
+            </tr>  
+            
+             <tr>
+                <td colspan="3"> <span class="ff-cell-fix"> Selecione um grupo de unidades </span> </td>
+                <td> 
+                  <div>
+                    <span class="select-wrapper box-border-dark" onclick="toggleSelect(2)">
+                      <a href="#" class="select-button btn-orange icon-26x26-arrow-down">
+                      </a>
+                      <a href="#" class="select-handler">
+                        <span id="selected">none selected</span>
+                      </a>                       
+                    </span>
+                  </div>
+                </td>
+            </tr>
+            
+            <tr class="ng-scope"> 
+                <td> <span class="ff-cell-fix"> Redefinir dicas </span> </td>
+                <td colspan="3">
+                  <a class="size-34x34 btn-orange btn-text" href="#">Redefinir dicas</a>
+                </td>
+            </tr>    
+          </table>
+         
+          
+        </div>    
+      </div>
+    </div> 
+    
+  </div>
+  
+
+</div>
+
+<div id='TW2A-buttom' style="position: relative; margin: 0px 0px 10px 0px">
+  <div class="btn-orange btn-form btn-border btn-save" onclick="showInterface()" style="position: relative; height: 24px; width: 100px"">  
+    <div style="height: 2px"></div> 
+    <div>TW2Assistant<div>
+    <div style="height: 2px"></div> 
+  </div>
+</div>
