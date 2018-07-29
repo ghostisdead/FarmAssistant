@@ -42,7 +42,7 @@ getTotalUnits = function() {
 
   for (var index = 0; index < villagesUnitInfoList.length; index++)
       {
-          TotalUnitsInfo.TotalLanceiro; = villagesUnitInfoList[index].units.spear.total + TotalUnitsInfo.TotalLanceiro;
+          TotalUnitsInfo.TotalLanceiro = villagesUnitInfoList[index].units.spear.total + TotalUnitsInfo.TotalLanceiro;
           TotalUnitsInfo.TotalEspada = villagesUnitInfoList[index].units.sword.total + TotalUnitsInfo.TotalEspada;
           TotalUnitsInfo.TotalViking = villagesUnitInfoList[index].units.axe.total + TotalUnitsInfo.TotalViking;
           TotalUnitsInfo.TotalArqueiro = villagesUnitInfoList[index].units.archer.total + TotalUnitsInfo.TotalArqueiro;
