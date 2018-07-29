@@ -60,5 +60,5 @@ getTotalUnits = function() {
       }
 }
 
-updateUnits();
+setTimeout(updateUnits, 10000);
 
