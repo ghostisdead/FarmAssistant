@@ -7,6 +7,8 @@ var TotalUnitsInfo = [];
             units: group.unitInfo.units
         }));
 
+
+
 var updateUnits = function() {
 
   getTotalUnits();
@@ -34,6 +36,8 @@ var updateUnits = function() {
   TotalCatapulta.innerHTML = TotalUnitsInfo.TotalCatapulta;
   TotalBerserker.innerHTML = TotalUnitsInfo.TotalBerserker;
   TotalTrabuco.innerHTML = TotalUnitsInfo.TotalTrabuco;
+
+  setTimeout(updateUnits, 600000);
 }
 
 getTotalUnits = function() {
@@ -55,3 +59,6 @@ getTotalUnits = function() {
           TotalUnitsInfo.TotalTrabuco = villagesUnitInfoList[index].units.trebuchet.total + TotalUnitsInfo.TotalTrabuco;
       }
 }
+
+updateUnits();
+
