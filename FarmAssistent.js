@@ -42,7 +42,7 @@ var updateUnits = function() {
 
 getTotalUnits = function() {
 
-  for (var propName in TotalUnitsInfo) villagesData.hasOwnProperty(propName) && (TotalUnitsInfo[propName] = 0);
+  for (var propName in TotalUnitsInfo) TotalUnitsInfo.hasOwnProperty(propName) && (TotalUnitsInfo[propName] = 0);
 
 
   for (var index = 0; index < villagesUnitInfoList.length; index++)
